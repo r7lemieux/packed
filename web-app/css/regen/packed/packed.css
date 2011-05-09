@@ -1,0 +1,151 @@
+
+
+.packedEdit {
+  background: transparent url(../../images/regen/packed/edit.png) 5px 50% no-repeat;
+  padding: 11px;
+}
+.packedUpdateAction{
+  /*
+   margin: -4px 0px -5px 0px;
+  border: none;
+   ;
+  */
+  margin: 1px -2px 0px 2px;
+  padding: 0px 0px 0px 0px;
+  background: none;
+  border: 0px solid red;
+  vertical-align: middle;
+}
+.packedUpdateImg{
+  /*
+   margin: -4px 0px -5px 0px;
+  border: none;
+   ;
+  */
+
+  vertical-align: middle;
+}
+tr td {
+  padding: 5px 5px 5px 5px;
+}
+.packedShowAction {
+  background: transparent url(../../images/regen/packed/show.png) 5px 50% no-repeat;
+  padding: 3px 12px 5px 11px;
+  margin: 0px -2px 0px -2px;
+}
+td a.packedLinkShowAction {
+  background: transparent url(../../images/regen/packed/show.png) 5px 50% no-repeat;
+  padding: 3px 12px 5px 11px;
+  margin: 0px 4px 0px -2px;
+}
+.packedDeleteAction{
+  background: transparent url(../../images/regen/packed/delete.png) 5px 50% no-repeat;
+  border: 0px solid darkgreen;
+  padding: 6px 12px 2px 11px;
+  margin: 0px -2px 0px -2px;
+  vertical-align: middle;
+}
+.packedShowGrey {
+  /*background: transparent url(../../images/regen/packed/show_grey.png) 5px 50% no-repeat;
+
+  padding: 3px 12px 1px 11px;
+  margin: 0px -2px 0px -2px;
+  */
+  border: 0px solid darkblue;
+  margin: 4px 0px 0px 0px;
+  display:none;
+}
+.packedDeleteGrey{
+  /*
+  background: transparent url(../../images/regen/packed/delete_grey.png) 5px 50% no-repeat;
+  padding: 5px 12px 1px 11px;
+  border: 0px solid darkgreen;
+  */
+  margin: 3px 0px 0px 0px;
+  border: 0px solid darkgreen;
+  display:none;
+
+}
+.packedUpdateGrey{
+  /*
+   margin: -4px 0px -5px 0px;
+  border: none;
+   ;
+  */
+  margin: -5px 1px 1px 3px;
+  padding: 0px 0px 0px 0px;
+  background: none;
+  border: 0px solid red;
+  vertical-align: middle;
+  display:none;
+}
+
+.packedSave{
+  background: transparent url(../../images/regen/packed/check.png) 5px 50% no-repeat;
+  padding: 5px 12px 1px 11px;
+  margin: 0px;
+}
+
+.rowBtns{
+  width: 67px;
+  min-width: 67px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  vertical-align: middle;
+}
+.packedRow{
+
+}
+.packedRowReadOnly{
+  
+}
+
+tr td input.normalField{
+  background: inherit;
+  border: 0px solid inherit;
+  margin: -2px;
+}
+tr td input.packedDirtyField, tr td select.packedDirtyField {
+  background: #FFFFC0;
+  border: 2px solid #E0E0A0;
+  margin: -4px;
+}
+tr td input.packedErrorField{
+  background: #FEE;
+  border: 1px solid #F11;
+  margin: -3px;
+}
+
+ .odd td input, .even td input,  .odd td select, .even td select {
+  border: 0px solid #9cecac;
+  margin: -2px -2px -2px -2px;
+  padding: 2px, 4px;
+
+  vertical-align: middle;
+}
+
+.odd td input[type=submit], .even td input[type=submit] {
+  border: 1px solid #688;
+  margin: -3px 0px -4px 0px;7
+  padding: 1px 4px;
+
+  background: #c3f1c3;
+}
+
+.hidden {
+  display:none;
+}
+.hiddenError {
+  display:none;
+}
+
+div.errors {
+  min-height: 20px;
+}
+.bullet {
+  margin: -2px -5px -5px -5px;
+  vertical-align: middle;
+  padding: 0px;
+  marging-top: -10px;
+}
+
