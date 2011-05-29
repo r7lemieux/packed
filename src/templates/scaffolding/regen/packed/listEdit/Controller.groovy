@@ -125,17 +125,13 @@ class ${className}Controller {
 
           ${propertyName}.properties = params
           def val = ${propertyName}.validate()
-          if(val) {
-            println "validated"
-          }
-          else {
+          if(!val) {
             ${propertyName}.errors.allErrors.each {
-              println it
+              //println it
             }
           }
-          println "${propertyName}.hasErrors() " + ${propertyName}.hasErrors()
+
           if (!${propertyName}.hasErrors() && ${propertyName}.save(flush: true)) {
-            println "${propertyName} " + ${propertyName};
             render(template:'listRow', model:[${propertyName}:${propertyName}])
           }
           else {
